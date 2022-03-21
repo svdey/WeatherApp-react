@@ -24,7 +24,7 @@ const Temp =  () => {
  }
  useEffect(() => {
   getWeatherInfo();
- },[getWeatherInfo]);
+ },[]);
  return(
   <>
     <div className="wrap">
